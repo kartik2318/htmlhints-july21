@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <img class="brand-logo" src="./images/My Logo.jpg" alt="">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse1">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="#" class="nav-item nav-link">About</a>
+                <a href="#" class="nav-item nav-link">Products</a>
+                <a href="#" class="nav-item nav-link">Contact</a>
+            </div>
+            <form class="form-inline ml-auto">
+                <input type="text" class="form-control mr-sm-2" placeholder="Search">
+                <button type="submit" class="btn btn-outline-light">Search</button>
+            </form>
+        </div>
+    </nav>
+	   
+</div>
+
+<div class="title">
+  <img class="brand-img" src="./images/brand.jpg" alt="">
+  <h1>Freedom Digital Computers.</h1>
+</div>
+
+  <div class="d-flex justify-content-center container mt-5">
+    <div class="card p-3 bg-white"><img class="img-logo" src="./images/img-1-logo.png" alt="">
+      <div class="about-product text-center mt-2">
+        <img src="./images/img-1.jpg" alt="" width="300">
+        <div>
+          <h4>Asus Vivobook (AMD Ryzen 5-3500U)</h4>
+          <h6 class="mt-0 text-black-50">In Search of Incredibles</h6>
+        </div>
+      </div>
+      <div class="stats mt-2">
+        <div class="d-flex justify-content-between p-price"><strong>RAM</strong><span>8 GB</span></div>
+        <div class="d-flex justify-content-between p-price"><strong>Storage</strong><span>1 TB (HDD)</span></div>
+        <div class="d-flex justify-content-between p-price"><strong>Graphics</strong><span>Radeon Vega 8 Graphics</span></div>
+      </div>
+      <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>Total</span><span>₹43,295.00</span>
+      </div>
+      <button class="btn-buy" onclick="makePay()">Buy Now</button>
+    </div>
+
+    <div class="card p-3 bg-white"><img class="img-logo" src="./images/img-1-logo.png" alt="">
+      <div class="about-product text-center mt-2">
+        <img src="./images/img-2.jpg" alt="" width="300">
+        <div>
+          <h4>ASUS ZenBook 14 (2020) Intel Core i5-1135G7</h4>
+          <h6 class="mt-0 text-black-50">In Search of Incredibles</h6>
+        </div>
+      </div>
+      <div class="stats mt-2">
+        <div class="d-flex justify-content-between p-price"><strong>RAM</strong><span>8 GB</span></div>
+        <div class="d-flex justify-content-between p-price"><strong>Storage</strong><span>512 GB (NvMe SSD)</span></div>
+        <div class="d-flex justify-content-between p-price"><strong>Graphics</strong><span>Intel Iris Xᵉ Graphics</span></div>
+      </div>
+      <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>Total</span><span>₹72,990.00</span>
+      </div>
+      <button class="btn-buy" onclick="makePay()">Buy Now</button>
+    </div>
+
+    <div class="card p-3 bg-white"><img src="./images/img-1-logo.png" alt="" class="img-logo">
+      <div class="about-product text-center mt-2">
+        <img src="./images/img-3.jpg" alt="" width="300">
+        <div>
+          <h4>Asus EJ522TS Laptop (i5 10th Gen) </h4>
+          <h6 class="mt-0 text-black-50">In Search of Incredibles</h6>
+        </div>
+      </div>
+      <div class="stats mt-2">
+        <div class="d-flex justify-content-between p-price"><strong>RAM</strong><span>8 GB</span></div>
+        <div class="d-flex justify-content-between p-price"><strong>Storage</strong><span>512 GB (PCIe SSD)</span></div>
+        <div class="d-flex justify-content-between p-price"><strong>Graphics</strong><span>Intel UHD Graphics</span></div>
+      </div>
+      <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>Total</span><span>₹49,999.00</span>
+      </div>
+      <button class="btn-buy" onclick="makePay()">Buy Now</button>
+    </div>
+
+</div>
+
+<div class="d-flex justify-content-center container mt-5">
+  <div class="card p-3 bg-white"><img src="./images/img-2-logo.png" alt="" class="img-logo">
+    <div class="about-product text-center mt-2">
+      <img src="./images/img-4.jpg" alt="" width="300">
+      <div>
+        <h4>Acer Nitro 5 Gaming Laptop AMD Ryzen 5 4600H </h4>
+        <h6 class="mt-0 text-black-50">Best in the Market</h6>
+      </div>
+    </div>
+    <div class="stats mt-2">
+      <div class="d-flex justify-content-between p-price"><strong>RAM</strong><span>8 GB</span></div>
+      <div class="d-flex justify-content-between p-price"><strong>Storage</strong><span>256 SSD + 1 TB HDD</span></div>
+      <div class="d-flex justify-content-between p-price"><strong>Graphics</strong><span>Nvidia GTX 1650</span></div>
+    </div>
+    <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>Total</span><span>₹65,999.00</span>
+    </div>
+    <button class="btn-buy" onclick="makePay()">Buy Now</button>
+  </div>
+
+  <div class="card p-3 bg-white"><img src="./images/hp-logo.png" alt="" class="img-logo">
+    <div class="about-product text-center mt-2">
+      <img src="./images/img-5.jpg" alt="" width="300">
+      <div>
+        <h4>HP Pavilion Gaming Laptop (Ryzen 5-3550H)</h4>
+        <h6 class="mt-0 text-black-50">Laptops with relatively inexpensive, lightly powered components</h6>
+      </div>
+    </div>
+    <div class="stats mt-2">
+      <div class="d-flex justify-content-between p-price"><strong>RAM</strong><span>8 GB</span></div>
+      <div class="d-flex justify-content-between p-price"><strong>Storage</strong><span>1 TB (HDD)</span></div>
+      <div class="d-flex justify-content-between p-price"><strong>Graphics</strong><span>NVIDIA GTX 1650 4GB</span></div>
+    </div>
+    <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>Total</span><span>₹59,900.00</span>
+    </div>
+    <button class="btn-buy" onclick="makePay()">Buy Now</button>
+  </div>
+
+  <div class="card p-3 bg-white"><img src="./images/hp-logo.png" alt="" class="img-logo">
+    <div class="about-product text-center mt-2">
+      <img src="./images/img-6.jpg" alt="" width="300">
+      <div>
+        <h4>HP 15 (2021) Thin & Light 11th Gen Core i5 Laptop</h4>
+        <h6 class="mt-0 text-black-50">Laptops with relatively inexpensive, lightly powered components</h6>
+      </div>
+    </div>
+    <div class="stats mt-2">
+      <div class="d-flex justify-content-between p-price"><strong>RAM</strong><span>8 GB</span></div>
+      <div class="d-flex justify-content-between p-price"><strong>Storage</strong><span>512 GB (PCIe NVMe SSD)</span></div>
+      <div class="d-flex justify-content-between p-price"><strong>Graphics</strong><span>Intel UHD Graphics</span></div>
+    </div>
+    <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>Total</span><span>₹59,990.00</span>
+    </div>
+    <button class="btn-buy" onclick="makePay()">Buy Now</button>
+  </div>
+
+</div>
+
+<div class="d-flex justify-content-center container mt-5">
+  <div class="card p-3 bg-white"><img src="./images/dell-logo.png" alt="" class="img-logo">
+    <div class="about-product text-center mt-2">
+      <img src="./images/img-7.jpeg" alt="" width="300">
+      <div>
+        <h4>Inspiron 15 Laptop. 11th Generation Intel® Core™ i5-11300H Processor</h4>
+        <h6 class="mt-0 text-black-50">Dell. Purely You.</h6>
+      </div>
+    </div>
+    <div class="stats mt-2">
+      <div class="d-flex justify-content-between p-price"><strong>RAM</strong><span>8 GB</span></div>
+      <div class="d-flex justify-content-between p-price"><strong>Storage</strong><span>512 GB (M.2 PCIe NVMe SSD)</span></div>
+      <div class="d-flex justify-content-between p-price"><strong>Graphics</strong><span>Intel® Iris® Xe Graphics</span></div>
+    </div>
+    <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>Total</span><span>₹ 62,989.99</span>
+    </div>
+    <button class="btn-buy" onclick="makePay()">Buy Now</button>
+  </div>
+
+  <div class="card p-3 bg-white"><img src="./images/dell-logo.png" alt="" class="img-logo">
+    <div class="about-product text-center mt-2">
+      <img src="./images/img-8.jpeg" alt="" width="300">
+      <div>
+        <h4>Vostro 14 3405 Laptop. AMD Ryzen™ 5 3450U Mobile Processor</h4>
+        <h6 class="mt-0 text-black-50">Dell. Purely You.</h6>
+      </div>
+    </div>
+    <div class="stats mt-2">
+      <div class="d-flex justify-content-between p-price"><strong>RAM</strong><span>8 GB</span></div>
+      <div class="d-flex justify-content-between p-price"><strong>Storage</strong><span>256 GB (PCIe NVMe SSD)</span></div>
+      <div class="d-flex justify-content-between p-price"><strong>Graphics</strong><span>AMD Radeon™ Vega 8 Graphics</span></div>
+    </div>
+    <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>Total</span><span>43,990.00</span>
+    </div>
+    <button class="btn-buy" onclick="makePay()">Buy Now</button>
+  </div>
+
+  <div class="card p-3 bg-white"><img src="./images/dell-logo.png" alt="" class="img-logo">
+    <div class="about-product text-center mt-2">
+      <img src="./images/img-9.jpg" alt="" width="300">
+      <div>
+        <h4>Dell XPS 13 Laptop (Core i5 8th Gen)</h4>
+        <h6 class="mt-0 text-black-50">Dell Purely You</h6>
+      </div>
+    </div>
+    <div class="stats mt-2">
+      <div class="d-flex justify-content-between p-price"><strong>RAM</strong><span>8 GB</span></div>
+      <div class="d-flex justify-content-between p-price"><strong>Storage</strong><span>256 GB (NVMe SSD)</span></div>
+      <div class="d-flex justify-content-between p-price"><strong>Graphics</strong><span>Intel UHD 620</span></div>
+    </div>
+    <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>Total</span><span>₹49,900.00</span>
+    </div>
+    <button class="btn-buy" onclick="makePay()">Buy Now</button>
+  </div>
+
+</div>
+
+<footer class="footer">
+  <h6>Thank You for Visiting</h6>
+  <p>CopyRight 2021 &copy; All Rights Reserved.</p>
+</footer>
+
+
+  
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+var options = {
+    "key": "rzp_test_UyNCaKhJ2Ur3XD", // Enter the Key ID generated from the Dashboard
+    "amount": "4329500", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+    "currency": "INR",
+    "name": "Asus Vivobook",
+    "description": "AMD Ryzen 5-3500U",
+    "image": "http://127.0.0.1:5500/images/img-1.jpg",
+    "order_id": "", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+    "handler": function (response){
+        alert(response.razorpay_payment_id);
+        alert(response.razorpay_order_id);
+        alert(response.razorpay_signature)
+    },
+    "prefill": {
+        "name": "Kartik Patare",
+        "email": "kartik.patare@example.com",
+        "contact": "1234567890"
+    },
+    "notes": {
+        "address": "Razorpay Corporate Office"
+    },
+    "theme": {
+        "color": "#000000"
+    }
+};
+var rzp1 = new Razorpay(options);
+rzp1.on('payment.failed', function (response){
+        alert(response.error.code);
+        alert(response.error.description);
+        alert(response.error.source);
+        alert(response.error.step);
+        alert(response.error.reason);
+        alert(response.error.metadata.order_id);
+        alert(response.error.metadata.payment_id);
+});
+
+function makePay() {
+  rzp1.open();
+    e.preventDefault();
+}
+
+</script>
+
+</body>
+
+</html>
